@@ -1,3 +1,21 @@
+# Leame
+Hola profe, escribe PINEDA BAUTISTA SEBASTIAN compartiendo la AA2 del curso 2023 2-DESARROLLO DE SOFTWARE WEB BACK-END-2310-6A MOM 1 VIRTUAL. 
+
+En este repositorio encontrará el front de la actividad teniendo presente que el semestre pasado vimos front pero usamos react y yo quería aprender 
+algo de Angular y comenzar desde cero para repasar y afianzar los conocimientos del semstre pasado. No usé scss pero recuerdo bien sus funcionalidades.
+
+En el archivo Modelo back2023-2.mwb encontrará la descripción del modelo hecho en MariaDB y su correspondiente gráfica en  el archivo diagramaModelo.png
+
+Como podrá ver el front hace uso de componentes para construir las vistas, ello como la capa de presentación que se acoplará con las demás a lo largo 
+del proceso de este semestre.
+
+
+Un cordial saludo y un agradecimiento por sus enseñanzas.
+
+
+
+
+
 # Back20232
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
