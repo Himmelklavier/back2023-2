@@ -1,0 +1,24 @@
+.carousel-image {
+    max-width: 50%;
+    max-width: 50%;
+}
+
+.carousel-control-prev {
+    color:black;
+}
+
+.carousel-control-prev-icon {
+    color:black;
+}
+
+.carousel-control-next {
+    color: black;
+}
+
+.carousel-control-next-icon {
+    color: black;
+}
+
+.sr-only {
+    color:black;
+}

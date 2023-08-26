@@ -1,0 +1,32 @@
+.row {
+    padding: 10px;
+}
+
+h1{
+    color:#FD3801;
+    font-weight: bold;
+}
+
+h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline #FD3801;
+    color: #591930;
+ 
+}
+
+h6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline #FD3801;
+    color: #591930;
+}
+
+li{
+    color: #591930;
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

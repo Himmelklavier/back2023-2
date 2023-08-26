@@ -1,0 +1,26 @@
+.transparent-navbar {
+  background-color: #f9f6fd;
+}
+
+.navbar-brand {
+  max-width: 200px;
+}
+
+h4 {
+  color: #591930;
+  font-weight: bold;            
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagen-clase {
+  width: 70%; 
+  height: auto; 
+  border-radius: 10%;
+}
+
+  

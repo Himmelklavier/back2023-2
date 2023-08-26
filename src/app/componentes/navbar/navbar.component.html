@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-md" style="background-color: #f9f6fd;">
+    <div class="container-fluid" id="LogoStrazolla">
+        <a class="navbar-brand d-flex justify-content-between align-items-center text-center" [routerLink]="['home']">
+            <span class="contenedor-logo">
+                <img src="assets/bandonephone.jpg" alt="Logo Strazolla" class="imagen-clase">
+            </span>
+            <span>
+                <h4>Strazolla</h4>
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class=" nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['detalleproducto']">Detalle del
+                        producto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['micuenta']">Mi cuenta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['carrito']">Mi carrito de compra</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['admin']">Admin</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"
+                    id="search-input-navbar">
+                <button class="btn btn-outline" type="button" id="btn-search-navbar"
+                    routerLink="/busqueda">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>

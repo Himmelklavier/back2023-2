@@ -1,0 +1,15 @@
+footer {
+    background: linear-gradient(to right, #f9f6fd, #f9f6fd);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+footer p { 
+    padding-top: 16px;
+    color: #591930;
+}
+
+footer h6 { 
+    margin-bottom: 16px;
+    color: #591930;
+} 

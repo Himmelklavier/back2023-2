@@ -1,0 +1,23 @@
+h3 {
+    color: #591930;
+}       
+  
+  
+.image {
+    max-width: 100%;
+    height: auto;
+}
+  
+  
+.card-group .card img:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card-group .card:hover {
+    transform: scale 0.8;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+  
+.card-body{
+    color:#591930;
+}

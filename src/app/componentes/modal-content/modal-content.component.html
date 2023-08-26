@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <h5 class="modal-title">Aviso de provisionalidad</h5>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss()"></button>
+</div>
+<div class="modal-body">
+    <p>Profe un cordial saludo, estas vistas han sido diseñadas pensando en las necesidades de:</p><br>
+    <ul>
+        <li>Log in de usuarios y administradores</li>
+        <li>Registro de nuevos usuarios</li>
+        <li>Vista de detalles de la cuenta, carrito e historial de transacciones de usuario mediante un form</li>
+        <li>Vista para que el admin haga CRUD mediante un form en las entidades: productos, transacciones,
+            personas, comentarios, credenciales de acceso </li>
+    </ul>
+    <p>Estos formularios se llenarán al cargar la información de la BD
+        mediante un select * from "...entidad..." y su
+        correspondiente petición mediante el back end</p>
+    <p>
+        Su estructura y componentes podrán cambiar en etapas posteriores.
+        <br>
+        <br>
+        Muchas gracias por sus clases profe.
+    </p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="activeModal.close()">Cerrar</button>
+</div>

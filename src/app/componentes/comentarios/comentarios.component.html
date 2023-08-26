@@ -1,0 +1,18 @@
+<form id="comentarios">
+    <div class="mb-3">
+        <h6 style="margin: 10px;">Su opinión de este producto</h6>
+    </div>
+    <div class="mb-3">
+        <label for="opinion" class="form-label">Opiniones</label>
+        <textarea class="form-control" id="opinion" rows="3" [(ngModel)]="opinion"></textarea>
+    </div>
+    <button id="submit-button" type="button" class="btn btn-dark" (click)="enviarOpinion()">Enviar</button>
+    <button type="button" class="btn btn-secondary" (click)="limpiarFormulario()">Limpiar</button>
+</form>
+
+<div id="comment-section" style="margin-top: 10px;">
+    <h5>Comentarios:</h5>
+    <div id="comments-container" style="background-color: #ffffff; color: black;">
+        <div *ngFor="let comentario of comentarios">{{ comentario }}</div>
+    </div>
+</div>
